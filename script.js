@@ -1,30 +1,3 @@
-// function calculate() {
-//     try{
-//         const height = document.getElementById("height");
-//         const weight = document.getElementById("weight");
-//         const bmi =  eval(height/(weight*weight));
-//         if (bmi <18){
-//             document.getElementById("display").value = 'Underweight';
-//         }
-//         if (bmi >18 && bmi <24.9){
-//             document.getElementById("display").value = 'Normal Weight';
-//         }
-//         if(bmi >24.9 && bmi < 29.9){
-//             document.getElementById("display").value = 'Overweight';
-//         }
-//         if(bmi > 29.9 && bmi< 34.9){
-//             document.getElementById("display").value = 'Obesity Class-Ⅰ';
-//         }
-//         if(bmi>34.9 && bmi< 39.9){
-//             document.getElementById("display").value = 'Obesity Class-Ⅱ';
-//         }
-//         if(bmi>39.9){
-//             document.getElementById("display").value = 'Obesity Class-Ⅲ';
-//         }
-//     }catch(error){
-//         document.getElementById("display").value = 'Error';
-//     }
-// }
 function calculate() {
     try {
         const height = parseFloat(document.getElementById("height").value);
